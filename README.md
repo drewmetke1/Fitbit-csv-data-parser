@@ -24,7 +24,7 @@ A C program that reads Fitbit-style time-series data from a CSV file, filters fo
 ## How to Run
 1. Place `FitbitData.csv` in the project folder.
 2. Compile:
-   - `gcc main.c -o fitbit`
+   - `gcc main.c functions.c -o fitbit`
 3. Run:
    - `./fitbit`
 4. Output will be written to `Results.csv`.
